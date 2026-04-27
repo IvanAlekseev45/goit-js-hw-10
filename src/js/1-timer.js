@@ -14,6 +14,7 @@ const refs = {
   seconds: document.querySelector('[data-seconds]'),
 };
 
+refs.btn.disabled = true;
 let userSelectedDate = null;
 const options = {
   enableTime: true,
